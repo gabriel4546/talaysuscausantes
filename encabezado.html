@@ -1,0 +1,35 @@
+<style>
+  .encabezado {
+    background-color: #99CC99; /* Verde medio */
+    overflow: hidden;
+    height: 100px;
+    position: relative;
+  }
+  
+  .marquee {
+    position: absolute;
+    white-space: nowrap;
+    animation: mover 10s linear infinite;
+  }
+  
+  @keyframes mover {
+    0% { left: 100%; }
+    100% { left: -100%; }
+  }
+  
+  .titulo {
+    color: #F5F5DC; /* Beige */
+    font-size: 40px;
+  }
+</style>
+
+<div class="encabezado">
+  <div class="marquee">
+    <img src="cecyt.jpeg" height="80"> 
+    <span class="titulo" style="margin-left: 20px; margin-right: 20px;">Tala inmoderada de árboles</span>
+    <img src="Ipn2.png" height="80"> 
+  </div>
+</div>
+
+<div style="position: fixed; bottom: 0; width: 100%; display: flex; justify-content: space-between;">
+  
